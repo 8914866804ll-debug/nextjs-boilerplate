@@ -15,11 +15,6 @@ export default function Main_Menu({ onOpenReservation }: MainMenuProps) {
           key={item.name}
           className="cursor-pointer transition-all duration-300 ease-in-out hover:text-white hover:scale-110 active:scale-95"
         >
-          {item.action ? (
-            <button onClick={item.action}>{item.name}</button>
-          ) : (
-            <a href={item.href}>{item.name}</a>
-          )}
         </li>
       ))}
     </ul>
