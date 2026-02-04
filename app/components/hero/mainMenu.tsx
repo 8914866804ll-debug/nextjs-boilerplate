@@ -1,13 +1,9 @@
 "use client";
 
-interface MainMenuProps {
-  onOpenReservation: () => void;
-}
-
 export default function Main_Menu({ onOpenReservation }: MainMenuProps) {
   const navItems = [
     { name: "Speisekarte", href: "#menu" },
-    { name: "Reservierung", action: onOpenReservation },
+    { name: "Reservierung"},
     { name: "Über Uns", href: "#about" },
     { name: "Kontakt", href: "#contact" },
   ];
