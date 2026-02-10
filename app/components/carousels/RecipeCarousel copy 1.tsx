@@ -3,17 +3,17 @@ import { Recipe } from "../../page";
 
 export default function RecipeCarousel1() {
   const recipes: Recipe[] = [
-    { title: "123", desc: "Mit Trüffelkruste", price: "40€", img: "/imgs/dish1.jpg" },
-    { title: "123-Tartar", desc: "Frischer Wildlachs", price: "25€", img: "/imgs/dish2.jpg" },
-    { title: "123 Paradiso", desc: "Hausgemachte Pasta", price: "22€", img: "/imgs/dish3.jpg" },
-    { title: "123 Sorbet", desc: "Sizilianische Zitronen", price: "15€", img: "/imgs/dish4.jpg" },
-    { title: "123", desc: "Rinderbraten in Essig-Beizen-Marinade mit Lebkuchensauce", price: "22€", img: "/imgs/dish5.jpg" },
+    { title: "Спринг-роллы с овощами", desc: "Рисовая бумага, овощи, зелень. 180 г", price: "420 руб.", img: "/imgs/dish1.jpg" },
+    { title: "Суань Ла Лянбань Цецзы", desc: "Курица, уксус, масло чили, чеснок. 350 г", price: "400 руб.", img: "/imgs/dish2.jpg" },
+    { title: "Куриные лапки в остром соусе", desc: "Лапки, масло чили, чеснок, соевый соус. 200 г", price: "420 руб.", img: "/imgs/dish3.jpg" },
+    { title: "Желудки утки в пяти специях", desc: "Желудки, пять специй, соевый соус. 175 г", price: "470 руб.", img: "/imgs/dish4.jpg" },
+    { title: "Спрут в устричном соусе", desc: "Осьминог, устричный соус. 150 г", price: "580 руб.", img: "/imgs/dish5.jpg" },
   ];
 
   return (
     <section id="menu" className="py-20 bg-[#1a1a1a]">
       <div className="mx-25 mb-10">
-        <h2 className="text-[#e7d8a9] text-4xl font-serif">Soups</h2>
+        <h2 className="text-[#e7d8a9] text-4xl font-serif">Закуски</h2>
       </div>
 
       <div className="flex gap-8 overflow-x-auto px-25 pb-10 scrollbar-hide snap-x snap-mandatory">
