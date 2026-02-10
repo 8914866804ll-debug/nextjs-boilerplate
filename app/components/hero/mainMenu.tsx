@@ -3,7 +3,7 @@
 export default function Main_Menu() {
   const navItems = [
     { name: "Speisekarte", href: "#menu" },
-    { name: "Reservierung", action: onOpenReservation },
+    { name: "Reservierung",  href: "#menu" },
     { name: "Über Uns", href: "#about" },
     { name: "Kontakt", href: "#contact" },
   ];
