@@ -3,17 +3,17 @@ import { Recipe } from "../../page";
 
 export default function RecipeCarousel6() {
   const recipes: Recipe[] = [
-    { title: "Rinderfilet", desc: "Mit Trüffelkruste", price: "40€", img: "/imgs/dish1.jpg" },
-    { title: "Lachs-Tartar", desc: "Frischer Wildlachs", price: "25€", img: "/imgs/dish2.jpg" },
-    { title: "Pasta Paradiso", desc: "Hausgemachte Pasta", price: "22€", img: "/imgs/dish3.jpg" },
-    { title: "Zitronen Sorbet", desc: "Sizilianische Zitronen", price: "15€", img: "/imgs/dish4.jpg" },
-    { title: "Sauerbraten", desc: "Rinderbraten in Essig-Beizen-Marinade mit Lebkuchensauce", price: "22€", img: "/imgs/dish5.jpg" },
+    { title: "Утка по-пекински", desc: "Хрустящая утка с тонкими блинчиками, соусом хойсин, огурцом и луком. 600 г", price: "2200 руб.", img: "/imgs/dish26.jpg" },
+    { title: "Свинина в кисло-сладком соусе «Гулаожоу»", desc: "Хрустящие кусочки свинины в классическом соусе с ананасом и перцем. 350 г", price: "650 руб.", img: "/imgs/dish27.jpg" },
+    { title: "Говядина с брокколи", desc: "Нежная говяжья вырезка с соцветиями брокколи в устричном соусе. 320 г", price: "720 руб.", img: "/imgs/dish28.jpg" },
+    { title: "Баранина с тмином «Цзыжань Янжоу»", desc: "Ломтики баранины, обжаренные с луком и большим количеством тмина. 350 г", price: "780 руб.", img: "/imgs/dish29.jpg" },
+    { title: "Телятина «Мапо»", desc: "Острое блюдо из фарша телятины с тофу в маслянисто-бобовом соусе. 300 г", price: "680 руб.", img: "/imgs/dish30.jpg" },
   ];
 
   return (
     <section id="menu" className="py-20 bg-[#1a1a1a]">
       <div className="mx-25 mb-10">
-        <h2 className="text-[#e7d8a9] text-4xl font-serif">Saisonal Empfohlen</h2>
+        <h2 className="text-[#e7d8a9] text-4xl font-serif">Мясо & птица</h2>
       </div>
 
       <div className="flex gap-8 overflow-x-auto px-25 pb-10 scrollbar-hide snap-x snap-mandatory">
