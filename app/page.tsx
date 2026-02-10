@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#1a1a1a]"> 
       <HeroImage />
       <Main_Menu />
-
+      <RecipeCarousel />
     </main>
   );
 }
