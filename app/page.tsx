@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#1a1a1a]"> 
       <HeroImage />
-      <Main_Menu /
+      <Main_Menu />
     </main>
   );
 }
