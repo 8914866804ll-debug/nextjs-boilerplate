@@ -17,6 +17,16 @@ export default function Home() {
       <HeroImage />
       <Main_Menu />
       <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
+      <RecipeCarousel />
     </main>
   );
 }
