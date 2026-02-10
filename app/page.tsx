@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#1a1a1a]"> 
       <nav>
-        <Main_Menu onOpenReservation={() => setIsResOpen(true)} />
+        <Main_Menu />
       </nav>
       <HeroImage />
     </main>
