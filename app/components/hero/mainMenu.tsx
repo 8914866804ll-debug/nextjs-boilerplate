@@ -2,10 +2,10 @@
 
 export default function Main_Menu() {
   const navItems = [
-    { name: "Speisekarte", href: "#menu" },
-    { name: "Reservierung", href: "#menu" },
-    { name: "Über Uns", href: "#about" },
-    { name: "Kontakt", href: "#contact" },
+    { name: "Меню", href: "#menu" },
+    { name: "Резервирование", href: "#menu" },
+    { name: "О нас", href: "#about" },
+    { name: "Контакты", href: "#contact" },
   ];
 
   return (
