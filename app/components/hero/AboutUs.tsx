@@ -52,7 +52,7 @@ export default function AboutUs() {
               />
               <div className="absolute inset-0 bg-linear-to-t from-[#1a1a1a] via-transparent to-transparent" />
               <div className="absolute bottom-8 left-8">
-                <p className="text-[#e7d8a9] font-serif italic text-xl">"Der Himmel ist kein Ort, sondern ein Erlebnis."</p>
+                <p className="text-[#e7d8a9] font-serif italic text-xl">"более аутентичный и глубокий образ, чем абстрактные «облака»."</p>
               </div>
             </div>
           </div>
