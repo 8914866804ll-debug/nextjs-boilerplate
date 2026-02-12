@@ -2,10 +2,10 @@
 
 export default function AboutUs() {
   const stats = [
-    { label: "Flughöhe", value: "3.000m" },
-    { label: "Flotte", value: "3 Schiffe" },
-    { label: "Sterne", value: "2 Michelin" },
-    { label: "Gegründet", value: "1923 / 2026" },
+    { label: "Просторное помещение", value: "12 столиков" },
+    { label: "Помещение", value: "3 Ресторана" },
+    { label: "Звезды", value: "2 Мишлен" },
+    { label: "Основан", value: "2015" },
   ];
 
   return (
@@ -16,17 +16,18 @@ export default function AboutUs() {
           {/* Text Content */}
           <div className="space-y-8">
             <h2 className="text-[#e7d8a9] text-4xl md:text-5xl font-serif leading-tight">
-              Kulinarik über den <br /> Wolken seit Generationen
+              Кулинария, что хранит мудрость поколений —  <br /> как туман над озером Тайху, вечно живой и вечно новый.
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Willkommen an Bord der exklusivsten Restaurant-Flotte der Welt. 
-              Unsere Geschichte begann mit der Vision, die Eleganz der klassischen Luftschifffahrt 
-              mit moderner Haute Cuisine zu verbinden. 
+             Taihu — это путешествие в сердце китайской провинции Цзянсу,
+              где древние традиции сливаются с поэзией озера Тайху.
+              Наш ресторан переносит вас в мир утончённой кухни Цзяннаня — региона юга реки Янцзы,
+              славящегося гармонией вкусов,изысканной подачей и глубоким уважением к свежести каждого ингредиента.
             </p>
             <p className="text-gray-400">
-              In unseren Gondeln erleben Sie nicht nur ein Menü, sondern eine Reise durch die Atmosphäre. 
-              Jedes Gericht wird in unserer Bordküche frisch zubereitet, während Sie lautlos 
-              über die schönsten Landschaften Europas gleiten.
+              Taihu — больше чем ресторан. Это оазис подлинной китайской культуры,
+               где каждая трапеза становится церемонией,
+               а каждый гость — желанным путником на берегах вечного озера.
             </p>
             
             {/* Stats Grid */}
